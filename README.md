@@ -27,11 +27,13 @@ https://www.utakata-no-yume.net/gallery/rpgmv/plugin/expand_equip_type_skill/
 装備可能にする防具IDを指定します。
 
 ## ■メタパラメーターの設定例 : Example of settings
-<UTA_ExpandEquipTypeWId:1>
+<UTA_ExpandEquipTypeWId:1>  
   -> ID: 1の武器を装備可能にする。
-<UTA_ExpandEquipTypeAId:1,5,10>
+
+<UTA_ExpandEquipTypeAId:1,5,10>  
   -> ID: 1, 5, 10の防具を装備可能にする。
-<UTA_ExpandEquipTypeWId:1-10>
+
+<UTA_ExpandEquipTypeWId:1-10>  
   -> ID: 1～10の武器を装備可能にする。
 
 ## ■プラグインパラメーター : Plugin Parameters
